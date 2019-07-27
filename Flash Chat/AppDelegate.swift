@@ -23,10 +23,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         //Initialise and configure Firebase
         FirebaseApp.configure()
         
-        let myDatabase = Database.database().reference()
-        
-        myDatabase.setValue("We've got data!")
-        
         return true
     }
 
@@ -57,12 +53,12 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     }
 
 //MARK: - Uncomment this only once you've gotten to Step 14.
-    /*
+    
     
 let APP_ID = "5H62DKM7JuG6kBBzVICydweQkSQTZD8vsFtoEEew"
 let CLIENT_KEY = "UMkw6hwriImwSAEtwxlMbrJXtcccrTR6jdcRS9IN"
     
-*/
+
 
 
 }
